@@ -1,5 +1,11 @@
-<img src="https://i.imgur.com/yLTZf3T.jpeg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> AYAN ROBOT - Bot Chat Messenger</h1>
+<p align="center"><a href="https://www.facebook.com/AYAN.JANU.LOVE.YOU.MY.HEART" target="_blank" rel="noopener noreferrer">
+  <img src="https://i.imgur.com/oapEhQg.gif" width="50" style="margin-right: 10px;"></a>
+</p>
+<h5 align="center">
+🔹GOAT
+</h5>
+<img src="https://i.postimg.cc/sgXh76X4/received-443931458309917.jpg" alt="banner">
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> GOAT - Bot Chat Messenger</h1>
 
 <p align="center">
 	<a href="https://nodejs.org/dist/v11.30.0">
