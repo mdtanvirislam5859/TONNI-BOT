@@ -34,12 +34,12 @@
 
 <div align="center">
 			<h3>My Replit Account ->
-			<a href="https://replit.com/@CliffvincentTor" style="color: green;">@Ayanchoudhuri🔥</a>
+			<a href="https://replit.com/@mohammadayan555" style="color: green;">@Ayanchoudhuri🔥</a>
 				<br>
 	My Facebook Account ->
 	<a href="https://www.facebook.com/swordigo.swordslush?mibextid=rS40aB7S9Ucbxw6v" style="color: black;">Ayan🚀</a></h3></div>
 
-<img align="center" src="https://i.imgur.com/4sBxoQG.jpeg"/>
+<img align="center" src="https://i.imgur.com/wovTalh.jpeg"/>
 
 
 🔹Mohammad Ayan
@@ -47,7 +47,7 @@
 
 # Editing AYAN CHOWDHURY😘
 
-# AYAN-SUPPER-ROBOT real owner AYAN CHOWDHURY🙂
+# AYAN-SUPPER-ROBOT real owner i don't know-!!
 
 # Everyone run this AYAN-ROBOT for fun
 
