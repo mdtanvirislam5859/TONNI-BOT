@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/oapEhQg.gif" width="50" style="margin-right: 10px;"></a>
 </p>
 <h5 align="center">
-🔹GOAT
+🔹AYAN CHOWDHURY
 </h5>
 <img src="https://i.postimg.cc/sgXh76X4/received-443931458309917.jpg" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> GOAT - Bot Chat Messenger</h1>
@@ -47,7 +47,7 @@
 
 # Editing AYAN CHOWDHURY😘
 
-# AYAN-SUPPER-ROBOT real owner i don't know-!!
+# AYAN-SUPPER-ROBOT real owner Mohammad Ayan-!!
 
 # Everyone run this AYAN-ROBOT for fun
 
