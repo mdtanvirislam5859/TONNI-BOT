@@ -5,7 +5,7 @@
 🔹AYAN CHOWDHURY
 </h5>
 <img src="https://i.postimg.cc/sgXh76X4/received-443931458309917.jpg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> GOAT - Bot Chat Messenger</h1>
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> AYAN BOT - Bot Chat Messenger</h1>
 
 <p align="center">
 	<a href="https://nodejs.org/dist/v11.30.0">
