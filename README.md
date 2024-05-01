@@ -4,7 +4,7 @@
 <h5 align="center">
 🔹RB-RASEL-KHAN
 </h5>
-<img src="https://i.postimg.cc/sgXh76X4/received-443931458309917.jpg" alt="banner">
+<img src="https://i.imgur.com/1hivRQi.jpeg" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> RB BOT - Bot Chat Messenger</h1>
 
 <p align="center">
