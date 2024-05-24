@@ -17,7 +17,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 	const { threadID } = event;
 	const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
 	const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
-	const type = (event.author == event.logMessageData.leftParticipantFbId) ? "আহারে চলে গেলো 🌺 কিন্তু কই পালাইবি 🌿ভিডিও দেখে যা☘️" : "বালপাকনামির কারণে কিক খাইলো🏵️";
+	const type = (event.author == event.logMessageData.leftParticipantFbId) ? "আহারে চলে গেলো 🌺 কিন্তু কই পালাইবা 🌿ভিডিও দেখে যাও☘️" : "প্রিয়পাকনামির কারণে কিক খাইলা🏵️";
 	const path = join(__dirname, "cache", "left");
 	const gifPath = join(path, `left.mp4`);
 	var msg, formPush
