@@ -48,7 +48,7 @@ module.exports.handleReply = async function ({ api, event, handleReply }) {
         if (fs.statSync(path).size > 26214400) return api.sendMessage('The file cannot be sent because the capacity is greater than 25MB.', event.threadID, () => fs.unlinkSync(path), event.messageID);
         api.unsendMessage(handleReply.messageID)
         return api.sendMessage({ 
-    body: `🎵 Title: ${data.title}\n🎶 Name Channel : ${data.author}\n⏱️ Time: ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n🥰 Likes: ${data.likes}\n⏱️Processing time: ${Math.floor((Date.now()- data.timestart)/1000)} second\n\n╭•┄┅════❁𝙈𝘾𝙎•𝟬𝟬𝟳❁════┅┄•╮\n\nᴠᴏʟᴜᴍᴇ : ▮▮▮▮▮▮▯▯▯\n\n⇆ㅤㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤㅤ↻\n\n★𝐁𝐎𝐓-𝐎𝐖𝐍𝐄𝐑-𝐁𝐀𝐃𝐎𝐋-𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘★\n\n╰•┄┅════❁𝙈𝘾𝙎•𝟬𝟬𝟳❁════┅┄•╯`,
+    body: `🎵 Title: ${data.title}\n🎶 Name Channel : ${data.author}\n⏱️ Time: ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n🥰 Likes: ${data.likes}\n⏱️Processing time: ${Math.floor((Date.now()- data.timestart)/1000)} second\n\n╭•┄┅════❁𝗧𝗢𝗡𝗡𝗜•𝗕𝗢𝗧❁════┅┄•╮\n\nᴠᴏʟᴜᴍᴇ : ▮▮▮▮▮▮▯▯▯\n\n⇆ㅤㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤㅤ↻\n\n★𝐁𝐎𝐓-𝐎𝐖𝐍𝐄𝐑-𝐒𝐀𝐈𝐌-𝐒𝐇𝐄𝐈𝐊𝐇★\n\n╰•┄┅════❁𝗧𝗢𝗡𝗡𝗜•𝗕𝗢𝗧❁════┅┄•╯`,
             attachment: fs.createReadStream(path)}, event.threadID, ()=> fs.unlinkSync(path), 
          event.messageID)
 
@@ -66,7 +66,7 @@ module.exports.convertHMS = function(value) {
     return (hours != '00' ? hours +':': '') + minutes+':'+seconds;
 }
 module.exports.run = async function ({ api, event, args }) {
-    if (args.length == 0 || !args) return api.sendMessage('» উফফ বলদ কি গান শুনতে চাস তার ২/১ লাইন তো লেখবি নাকি 🤰', event.threadID, event.messageID);
+    if (args.length == 0 || !args) return api.sendMessage('» উফফ প্রিয় কি গান শুনতে চাও তার ২/১ লাইন তো লেখবা নাকি ☹️', event.threadID, event.messageID);
     const keywordSearch = args.join(" ");
     var path = `${__dirname}/cache/1.mp3`
     if (fs.existsSync(path)) { 
@@ -77,7 +77,7 @@ module.exports.run = async function ({ api, event, args }) {
             var data = await downloadMusicFromYoutube(args.join(" "), path);
             if (fs.statSync(path).size > 26214400) return api.sendMessage('Unable to send files because the capacity is greater than 25MB .', event.threadID, () => fs.unlinkSync(path), event.messageID);
             return api.sendMessage({ 
-                body: `🎵 Title: ${data.title}\n🎶 Name Channel: ${data.author}\n⏱️ Time: ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n👍 Likes: ${data.likes}\n⏱️ Processing time: ${Math.floor((Date.now()- data.timestart)/1000)} second\n\n╭•┄┅════❁𝙈𝘾𝙎•𝟬𝟬𝟳❁════┅┄•╮\n\nᴠᴏʟᴜᴍᴇ : ▮▮▮▮▮▮▯▯▯\n\n⇆ㅤㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤㅤ↻\n\n★𝐁𝐎𝐓-𝐎𝐖𝐍𝐄𝐑-𝐁𝐀𝐃𝐎𝐋-𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘★\n\n╰•┄┅════❁𝙈𝘾𝙎•𝟬𝟬𝟳❁════┅┄•╯`,
+                body: `🎵 Title: ${data.title}\n🎶 Name Channel: ${data.author}\n⏱️ Time: ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n👍 Likes: ${data.likes}\n⏱️ Processing time: ${Math.floor((Date.now()- data.timestart)/1000)} second\n\n╭•┄┅════❁𝗧𝗢𝗡𝗡𝗜•𝗕𝗢𝗧❁════┅┄•╮\n\nᴠᴏʟᴜᴍᴇ : ▮▮▮▮▮▮▯▯▯\n\n⇆ㅤㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤㅤ↻\n\n★𝐁𝐎𝐓-𝐎𝐖𝐍𝐄𝐑-𝐒𝐀𝐈𝐌-𝐒𝐇𝐄𝐈𝐊𝐇★\n\n╰•┄┅════❁𝗧𝗢𝗡𝗡𝗜•𝗕𝗢𝗧❁════┅┄•╯`,
                 attachment: fs.createReadStream(path)}, event.threadID, ()=> fs.unlinkSync(path), 
             event.messageID)
 
