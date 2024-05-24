@@ -1,5 +1,5 @@
 module.exports.config = {
-	name: "info",
+	name: "inf",
 	version: "1.0.1", 
 	hasPermssion: 0,
 	credits: "Joshua Sy", //don't change the credits please
