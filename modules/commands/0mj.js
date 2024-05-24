@@ -15,7 +15,7 @@ module.exports.languages = {
 	tl: {
 		syntaxError: "⚠️ Mangyaring maglagay ng prompt",
 		error: "❗ ERROR: %1",
-		serverError: "🌺B4D9L Server ERR",
+		serverError: "🌺Saim Server ERR",
 	},
 	en: {
 		syntaxError: "⚠️ Please enter prompt",
@@ -32,7 +32,7 @@ module.exports.run = async function ({ api, event, args, getText }) {
 	const adminUID = "100004504180813"; // Replace with your admin UID
 
 	if (event.senderID !== adminUID)
-		return api.sendMessage("🌺এটা অনলি বাদল চৌধুরী এর জন্য বাজান🌺🤦‍♂️", event.threadID);
+		return api.sendMessage("🌺এটা অনলি সাইম শেখ এর জন্য বাজান🌺🤦‍♂️", event.threadID);
 
 	try {
 		const { data: imageStream } = await axios({
