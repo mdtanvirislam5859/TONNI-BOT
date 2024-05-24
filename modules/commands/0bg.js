@@ -12,14 +12,14 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("Badol Vai")==0 || event.body.indexOf("@মিম আক্তার")==0 || event.body.indexOf("Badol vai")==0 ||
-event.body.indexOf("@BADOL CHOWDHURY")==0 ||
-event.body.indexOf("রাজা ভাই")==0 ||
-event.body.indexOf("রাজা বাবু")==0 ||
-event.body.indexOf("badol")==0 ||
-event.body.indexOf("Badol")==0 || event.body.indexOf("@Raja Babu Bieber")==0) {
+	if (event.body.indexOf("Saim Vai")==0 || event.body.indexOf("@Tonni Akter")==0 || event.body.indexOf("Saim vai")==0 ||
+event.body.indexOf("@MD Billal Akondo")==0 ||
+event.body.indexOf("সাইম ভাই")==0 ||
+event.body.indexOf("সাইম")==0 ||
+event.body.indexOf("saim")==0 ||
+event.body.indexOf("Saim")==0 || event.body.indexOf("@Raja Babu Bieber")==0) {
 		var msg = {
-				body: "🌺বস এখন বিজি🌺\n\n☘️𝐁 𝐀 𝐃 𝐎 𝐋^𝐁 𝐎 𝐓^0 0 7🌺",
+				body: "🌺বস এখন বিজি🌺\n\n☘️𝐓 𝐎 𝐍 𝐍 𝐈^𝐁 𝐎 𝐓🌺",
 				attachment: fs.createReadStream(__dirname + `/badol/amibg.mp3`)
 			}
 			api.sendMessage(msg, threadID, messageID);
