@@ -99,7 +99,7 @@ module.exports.run = async function ({ api, event, Users, Threads, Currencies })
     .replace(/\{task}/g, task);
 
   return api.sendMessage({
-body: formReport, attachment: [await streamURL(threadInfo.imageSrc), await streamURL(`https://graph.facebook.com/${event.author}/picture?height=720&width=720&access_token=463372798834978|csqGyA8VWtIhabZZt-yhEBStl9Y`)]
+body: formReport, attachment: [await streamURL(threadInfo.imageSrc), await streamURL(`https://graph.facebook.com/${event.author}/picture?height=720&width=720&access_token=61556537307728|csqGyA8VWtIhabZZt-yhEBStl9Y`)]
 }, global.config.ADMINBOT[0], (error, info) => {
     if (error) return logger(formReport, "[ Logging Event ]");
   });
