@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.facebook.com/RAJA.BABU.TERA.REAL.ABBU.OK.07" target="_blank" rel="noopener noreferrer">
+<p align="center"><a href="https://www.facebook.com/editor.saim" target="_blank" rel="noopener noreferrer">
   <img src="https://i.imgur.com/oapEhQg.gif" width="50" style="margin-right: 10px;"></a>
 </p>
 <h5 align="center">
@@ -34,7 +34,7 @@
 
 <div align="center">
 			<h3>BOT-OWNER ->
-			<a href="https://www.facebook.com/BADOL.CHOWDHURY.TERA.REAL.ABBU" style="color: green;">@BADOL-CHOWDHURY🔥</a>
+			<a href="https://www.facebook.com/editor.saim" style="color: green;">@BADOL-CHOWDHURY🔥</a>
 				<br>
 	BOT-MODIFY ->
 	<a href="https://www.facebook.com/RAJA.BABU.TERA.REAL.ABBU.OK.07?mibextid=rS40aB7S9Ucbxw6v" style="color: black;">@RAJA-BABU🚀</a></h3></div>
