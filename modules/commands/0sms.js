@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "sms",
   version: "1.0.0",
-  hasPermssion: 0, //DONT CHANGE THIS MODIFIER CREDIT TANVIR-TAMIM
+  hasPermssion: 1, //DONT CHANGE THIS MODIFIER CREDIT TANVIR-TAMIM
   credits: "TANVIR-TAMIM",
   description: "ржПрж╕ржПржоржПрж╕ ржмрзЛржорзНржмрж╛рж░, рж╢рзБржзрзБржорж╛рждрзНрж░ ржмрж╛ржВрж▓рж╛ржжрзЗрж╢рж┐ ржирж╛ржорзНржмрж╛рж░рзЗрж░ ржЬржирзНржп ржкрзНрж░ржпрзЛржЬрзНржп",
   commandCategory: "Tool",
