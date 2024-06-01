@@ -23,12 +23,14 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/AwnlJ2t.jpeg",
-            "https://i.imgur.com/3apAYvi.jpeg",
-            "https://i.imgur.com/8kox7uW.jpeg",
-            "https://i.imgur.com/dVRNifU.jpeg",
+var link = ["https://i.imgur.com/0Rl1Cnl.jpeg",
+            "https://i.imgur.com/66kJmaP.jpeg",
+            "https://i.imgur.com/FmQPu48.jpeg",
+            "https://i.imgur.com/oKUJVoE.jpeg",
+	    "https://i.imgur.com/39cGAoy.jpeg",
+	    "https://i.imgur.com/kYzb0Jz.jpeg",
             
-"https://i.imgur.com/dYsvvIW.jpeg"];var callback = () => api.sendMessage({body:`🌺আসালামু-আলাইকুম🌺
+"https://i.imgur.com/fHGs05V.jpeg"];var callback = () => api.sendMessage({body:`🌺আসালামু-আলাইকুম🌺
 
 🌺🦋এই-বট-দ্বারা-সুরক্ষিত🦋🌺\n🌺🦋𝐒𝐀𝐈𝐌🌿𝐒𝐇𝐄𝐈𝐊𝐇🦋🌺\n
 ¶────██████────¶
