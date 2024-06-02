@@ -53,6 +53,6 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
     "https://i.imgur.com/EhMNnYG.jpg",
     "https://i.imgur.com/il2UjnC.jpg",
   ];
-  var callback = () => api.sendMessage({ body: `প্ঁম্ঁ প্ঁম্ঁ খাও আর মটা হও 💦༆𝐁 𝐀 𝐃 𝐎 𝐋🍁𝐂 𝐇 𝐎 𝐖 𝐃 𝐇 𝐔 𝐑 𝐘🌻𝐁 𝐎 𝐓🌺0 0 7༆`, attachment: fs.createReadStream(__dirname + "/cache/5.jpg") }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.jpg"));
+  var callback = () => api.sendMessage({ body: `প্ঁম্ঁ প্ঁম্ঁ খাও আর মোটা হও 💦༆𝐓 𝐎 𝐍 𝐍 𝐈🌻𝐁 𝐎 𝐓༆`, attachment: fs.createReadStream(__dirname + "/cache/5.jpg") }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.jpg"));
   return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/5.jpg")).on("close", () => callback());
 };
