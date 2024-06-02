@@ -1,11 +1,11 @@
 <p align="center"><a href="https://www.facebook.com/editor.saim" target="_blank" rel="noopener noreferrer">
-  <img src="https://i.imgur.com/oapEhQg.gif" width="50" style="margin-right: 10px;"></a>
+  <img src="https://i.imgur.com/0Rl1Cnl.jpeg" width="50" style="margin-right: 10px;"></a>
 </p>
 <h5 align="center">
-🔹BOT-OWNER-BADOL-CHOWDHURY
+🔹BOT-OWNER-SAIM-SHEIKH
 </h5>
-<img src="https://i.imgur.com/1hivRQi.jpeg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> RB-BOT-Bot-Chat-Messenger</h1>
+<img src="https://i.imgur.com/0Rl1Cnl.jpeg" alt="banner">
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> TONNI-BOT-Bot-Chat-Messenger</h1>
 
 <p align="center">
 	<a href="https://nodejs.org/dist/v11.30.0">
@@ -37,23 +37,23 @@
 			<a href="https://www.facebook.com/editor.saim" style="color: green;">@BADOL-CHOWDHURY🔥</a>
 				<br>
 	BOT-MODIFY ->
-	<a href="https://www.facebook.com/RAJA.BABU.TERA.REAL.ABBU.OK.07?mibextid=rS40aB7S9Ucbxw6v" style="color: black;">@RAJA-BABU🚀</a></h3></div>
+	<a href="https://www.facebook.com/editor.saim" style="color: black;">@RAJA-BABU🚀</a></h3></div>
 
-<img align="center" src="https://i.imgur.com/f6iiSqA.jpeg"/>
-
-
-🔹MOHAMMAD-BADOL-CHOWDHURY
+<img align="center" src="https://i.imgur.com/0Rl1Cnl.jpeg"/>
 
 
-# Editing RB-RASEL-KHAN😘
+🔹MOHAMMAD-SAIM-SHEIKH
 
-# RASEL-SUPPER-ROBOT REAL OWNER BADOL -!!
 
-# Everyone run this RB-ROBOT for fun
+# Editing BOT-OWNER-SAIM😘
 
-# If there is any error, I will fix it by @raja-babu on Facebook
+# TONNI-SUPPER-ROBOT REAL OWNER SAIM -!!
 
-# https://www.facebook.com/RAJA.BABU.TERA.REAL.ABBU.OK.07
+# Everyone run this TONNI-ROBOT for fun
+
+# If there is any error, I will fix it by @Md Billal Akondo on Facebook
+
+# https://www.facebook.com/editor.saim
 
 # I hope you enjoy
 
