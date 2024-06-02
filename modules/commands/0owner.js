@@ -23,19 +23,20 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/YXFfZfD.jpg",
-            "https://i.imgur.com/CwAiFqt.jpg",
-            "https://i.imgur.com/zHAmF70.jpg",
-            "https://i.imgur.com/Tu0omOL.jpg",
+var link = ["https://i.imgur.com/FmQPu48.jpeg",
+            "https://i.imgur.com/66kJmaP.jpeg",
+            "https://i.imgur.com/0Rl1Cnl.jpeg",
+            "https://i.imgur.com/kYzb0Jz.jpeg",
+	    "https://i.imgur.com/oKUJVoE.jpeg",
+	    "https://i.imgur.com/39cGAoy.jpeg",
             
-"https://i.imgur.com/YXFfZfD.jpg"];var callback = () => api.sendMessage({body:`🌺BOT☘️OWNER🍀SAIM SHEIKH🌺 
+"https://i.imgur.com/fHGs05V.jpeg"];var callback = () => api.sendMessage({body:`🌺BOT☘️OWNER🍀SAIM SHEIKH🌺 
 
 ◢◥▂▂▂▂⭕▂▂▂▂◤◣
    ☘️আমার🌺পরিচয়🌿
 ◥◢▔▔▔▔⭕▔▔▔▔◣◤    
 
-আমি           :🌺𝐒𝐀𝐈𝐌🍃𝐒𝐇𝐄𝐈𝐊𝐇🍀↙️
-ডাক নাম     :🍀সা্ঁই্ঁম্ঁ🍃শে্ঁখ্ঁ↙🌺
+নাম     :🍀সা্ঁই্ঁম্ঁ🍃শে্ঁখ্ঁ↙🌺
 ধর্ম              :🍀ইসলাম🕌🌺
 বাড়ি            :🍀মুন্সিগঞ্জ জেলায়🌍☘️
 থানার নাম   :🌺টংগীবাড়ি থানা🏟️☘️
@@ -47,6 +48,6 @@ var link = ["https://i.imgur.com/YXFfZfD.jpg",
 বেয়াদবি       :🍀হালকা♨️🌺
 ধন সম্পদ     :🌺জাতীয় ফকির⚠️🍀
 ভালোবাসা    :☘️কপাল ফুটা♨️🍁
-মেসেঞ্জার লিংক: m.me/61556537307728 『༆𝙈𝙔🌺☘️ 𝘽𝙊𝙎𝙎👉(𝐒 𝐀 𝐈 𝐌 𝐒 𝐇 𝐄 𝐈 𝐊 𝐇)✪\n\n𝘾𝙍𝘼𝘿𝙄𝙏✯𝘽𝙔:𝙏𝙊𝙉𝙉𝙄★𝘽𝙊𝙏✰007🌺☘️༆』`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+মেসেঞ্জার লিংক: m.me/61556537307728 『༆𝙈𝙔🌺☘️ 𝘽𝙊𝙎𝙎👉(𝐒 𝐀 𝐈 𝐌 𝐒 𝐇 𝐄 𝐈 𝐊 𝐇)✪\n\n𝘾𝙍𝘼𝘿𝙄𝙏✯𝘽𝙔:𝙏𝙊𝙉𝙉𝙄★𝘽𝙊𝙏🌺☘️༆』`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
