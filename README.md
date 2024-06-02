@@ -5,7 +5,7 @@
 🔹BOT-OWNER-SAIM-SHEIKH
 </h5>
 <img src="https://i.imgur.com/0Rl1Cnl.jpeg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> TONNI-BOT-Bot-Chat-Messenger</h1>
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Tonni-Bot-Chat-Messenger</h1>
 
 <p align="center">
 	<a href="https://nodejs.org/dist/v11.30.0">
@@ -34,10 +34,10 @@
 
 <div align="center">
 			<h3>BOT-OWNER ->
-			<a href="https://www.facebook.com/editor.saim" style="color: green;">@BADOL-CHOWDHURY🔥</a>
+			<a href="https://www.facebook.com/editor.saim" style="color: green;">@SAIM-SHEIKH🔥</a>
 				<br>
 	BOT-MODIFY ->
-	<a href="https://www.facebook.com/editor.saim" style="color: black;">@RAJA-BABU🚀</a></h3></div>
+	<a href="https://www.facebook.com/editor.saim" style="color: black;">@SAIM-SHEIKH🚀</a></h3></div>
 
 <img align="center" src="https://i.imgur.com/0Rl1Cnl.jpeg"/>
 
