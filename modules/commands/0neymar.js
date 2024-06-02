@@ -18,8 +18,8 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["Neymar pitcher 💙 :50+☘️𝐓𝐎𝐍𝐍𝐈^𝐁𝐎𝐓^007🌺",
-             "Neymar pitcher 🖤 :50+☘️𝐓𝐎𝐍𝐍𝐈^𝐁𝐎𝐓^007🌺"];
+   var hi = ["Neymar pitcher 💙 :50+☘️𝐓𝐎𝐍𝐍𝐈^𝐁𝐎𝐓🌺",
+             "Neymar pitcher 🖤 :50+☘️𝐓𝐎𝐍𝐍𝐈^𝐁𝐎𝐓🌺"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
   "https://i.ibb.co/RPF1S0R/e553a0b6e7d39b06f4651c4a20db8807.jpg",
