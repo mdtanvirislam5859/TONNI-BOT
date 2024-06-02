@@ -28,7 +28,7 @@ var link = ["https://i.imgur.com/bd9C0lj.jpg",
             "https://i.imgur.com/bd9C0lj.jpg",
             "https://i.imgur.com/SA7gxQ4.jpg",
             
-"https://imgur.com/rWIYJsc.png"];var callback = () => api.sendMessage({body:`🌺𝐁𝐀𝐃𝐎𝐋☘️𝐕𝐀𝐈🍀𝐁𝐎𝐓-007🌺 
+"https://imgur.com/rWIYJsc.png"];var callback = () => api.sendMessage({body:`🌺𝐒𝐀𝐈𝐌☘️𝐕𝐀𝐈🍀𝐁𝐎𝐓🌺 
 
 🕌🕋
 .... 人
@@ -49,6 +49,6 @@ var link = ["https://i.imgur.com/bd9C0lj.jpg",
                       ❛ ❛আমাদের পাপ কাজ 彡-ღক্ষমা করে দাও..... 🤲🤲আমিন ࿐❤🌸
 
 彡-ღ🕋🕋জুম্মা মোবারক সবাইকে.....🕋🕋࿐
-꧁҉ཽ❥◎⃝❥͜͜͡͡🌻বা্ঁদ্ঁল্ঁ☘🌺চৌ্ঁধু্ঁরী্ঁ❁ཻ͜͡ღ᭄ 『༆𝐌𝐘🌺☘️ 𝐁𝐎𝐒𝐒👉(𝐁 𝐀 𝐃 𝐎 𝐋 𝐂 𝐇 𝐎 𝐖 𝐃 𝐇 𝐔 𝐑 𝐘 )✪\n\n𝐂𝐑𝐀𝐃𝐈𝐓✯𝘽𝙔:𝐁4𝐃9𝐋᯽𝐕41★𝐁 𝐎 𝐓✰0 0 7🌺☘️༆』`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+꧁҉ཽ❥◎⃝❥͜͜͡͡🌻সা্ঁই্ঁম্ঁ☘🌺শে্ঁখ্ঁ❁ཻ͜͡ღ᭄ 『༆𝐌𝐘🌺☘️ 𝐁𝐎𝐒𝐒👉(𝐒 𝐀 𝐈 𝐌 𝐒 𝐇 𝐄 𝐈 𝐊 𝐇)✪\n\n𝐂𝐑𝐀𝐃𝐈𝐓✯𝐁𝐘:𝐒𝐀𝐈𝐌᯽𝐕𝐀𝐈★𝐁𝐎𝐓🌺☘️༆』`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
