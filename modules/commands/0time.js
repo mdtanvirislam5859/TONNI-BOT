@@ -23,12 +23,14 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/YXFfZfD.jpg",
-            "https://i.imgur.com/CwAiFqt.jpg",
-            "https://i.imgur.com/zHAmF70.jpg",
-            "https://i.imgur.com/Tu0omOL.jpg",
+var link = ["https://i.imgur.com/FmQPu48.jpeg",
+            "https://i.imgur.com/66kJmaP.jpeg",
+            "https://i.imgur.com/0Rl1Cnl.jpeg",
+            "https://i.imgur.com/39cGAoy.jpeg",
+	    "https://i.imgur.com/fHGs05V.jpeg",
+	    "https://i.imgur.com/oKUJVoE.jpeg",
             
-"https://i.imgur.com/YXFfZfD.jpg"];var callback = () => api.sendMessage({body:`🌺আসালামু-আলাইকুম🌺
+"https://i.imgur.com/kYzb0Jz.jpeg"];var callback = () => api.sendMessage({body:`🌺আসালামু-আলাইকুম🌺
 
 🌺বট-PREFIX🌺: ${global.config.PREFIX}👈🌺
 
@@ -36,7 +38,7 @@ var link = ["https://i.imgur.com/YXFfZfD.jpg",
 
 🌺 বট-রানিং-টাইম🌿: ${hours}:${minutes}:${seconds}.
 
-🌺🌿𝐁𝐀𝐃𝐎𝐋^𝐁𝐎𝐓^007🌺বট-এডমিন🌿🌺
+🌺🌿𝐓𝐎𝐍𝐍𝐈^𝐁𝐎𝐓🌺বট-এডমিন🌿🌺
 ¶────██████────¶
  
 ¶────██████────¶
@@ -64,6 +66,6 @@ var link = ["https://i.imgur.com/YXFfZfD.jpg",
 ¶────◥████◤────¶
 
 ¶─────◥██◤─────¶
-🌺✰𝐁𝐀𝐃𝐎𝐋^𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘★🌺`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+🌺✰𝐒𝐀𝐈𝐌^𝐒𝐇𝐄𝐈𝐊𝐇★🌺`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
