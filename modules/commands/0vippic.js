@@ -19,8 +19,8 @@ if ((this.config.credits) != "BADOL") { return api.sendMessage(`[ WARNING ] - BA
   const fs = require("fs-extra")
   const axios = require("axios")
   const { threadID, messageID, senderID, body } = event;
-  if(!args[0]) return api.sendMessage('Hey Itz Me ☘️𝐁 𝐀 𝐃 𝐎 𝐋^𝐁 𝐎 𝐓^0 0 7🌺 here Please enter primary name!!!', threadID, messageID)
-  else return api.sendMessage(`☘️𝐁 𝐀 𝐃 𝐎 𝐋^𝐁 𝐎 𝐓^0 0 7🌺 You chose the main name: ${args.join(" ").toUpperCase()}\n\n(Reply to this message and choose your secondary name)`,event.threadID, (err, info) => {
+  if(!args[0]) return api.sendMessage('Hey Itz Me ☘️𝐓 𝐎 𝐍 𝐍 𝐈^𝐁 𝐎 𝐓🌺 here Please enter primary name!!!', threadID, messageID)
+  else return api.sendMessage(`☘️𝐓 𝐎 𝐍 𝐍 𝐈^𝐁 𝐎 𝐓🌺 You chose the main name: ${args.join(" ").toUpperCase()}\n\n(Reply to this message and choose your secondary name)`,event.threadID, (err, info) => {
      return global.client.handleReply.push({
         type: "tenphu",
         name: `fbcover`,
@@ -55,7 +55,7 @@ module.exports.handleReply = async function({ api, event, args, handleReply, cli
     case "tenphu": {
       var tenchinh = handleReply.tenchinh;
       api.unsendMessage(handleReply.messageID);
-      return api.sendMessage(`☘️𝐁 𝐀 𝐃 𝐎 𝐋^𝐁 𝐎 𝐓^0 0 7🌺 choose the sub-name ${event.body.toUpperCase()}\n\n(Reply to this message enter your phone number)`,threadID, function (err, info) {
+      return api.sendMessage(`☘️𝐓 𝐎 𝐍 𝐍 𝐈^𝐁 𝐎 𝐓🌺 choose the sub-name ${event.body.toUpperCase()}\n\n(Reply to this message enter your phone number)`,threadID, function (err, info) {
         return global.client.handleReply.push({
           type: "sdt",
           name: `fbcover`,
@@ -68,7 +68,7 @@ module.exports.handleReply = async function({ api, event, args, handleReply, cli
     }
     case "sdt": {
       api.unsendMessage(handleReply.messageID);
-      return api.sendMessage(`☘️𝐁 𝐀 𝐃 𝐎 𝐋^𝐁 𝐎 𝐓^0 0 7🌺 You have selected SDT as: ${event.body.toUpperCase()}\n\(Reply this message to enter your email)`,threadID, function (err, info) {
+      return api.sendMessage(`☘️𝐓 𝐎 𝐍 𝐍 𝐈^𝐁 𝐎 𝐓🌺 You have selected SDT as: ${event.body.toUpperCase()}\n\(Reply this message to enter your email)`,threadID, function (err, info) {
         return global.client.handleReply.push({
           type: "email",
           name: `fbcover`,
@@ -82,7 +82,7 @@ module.exports.handleReply = async function({ api, event, args, handleReply, cli
     }
     case "email": {
       api.unsendMessage(handleReply.messageID);
-      return api.sendMessage(`☘️𝐁 𝐀 𝐃 𝐎 𝐋^𝐁 𝐎 𝐓^0 0 7🌺 You have selected email as : ${event.body.toUpperCase()}\n\(Reply this message to enter your address)`,threadID, function (err, info) {
+      return api.sendMessage(`☘️𝐓 𝐎 𝐍 𝐍 𝐈^𝐁 𝐎 𝐓🌺 You have selected email as : ${event.body.toUpperCase()}\n\(Reply this message to enter your address)`,threadID, function (err, info) {
         return global.client.handleReply.push({
           type: "color",
           name: `fbcover`,
@@ -97,7 +97,7 @@ module.exports.handleReply = async function({ api, event, args, handleReply, cli
     }
     case "color": {
       api.unsendMessage(handleReply.messageID);
-      return api.sendMessage(`☘️𝐁 𝐀 𝐃 𝐎 𝐋^𝐁 𝐎 𝐓^0 0 7🌺 You have selected the address as : ${event.body.toUpperCase()}\nReply this message to enter your background color(enter no as default color)`,threadID, function (err, info) {
+      return api.sendMessage(`☘️𝐓 𝐎 𝐍 𝐍 𝐈^𝐁 𝐎 𝐓🌺 You have selected the address as : ${event.body.toUpperCase()}\nReply this message to enter your background color(enter no as default color)`,threadID, function (err, info) {
         return global.client.handleReply.push({
           type: "create",
           name: `fbcover`,
@@ -120,7 +120,7 @@ module.exports.handleReply = async function({ api, event, args, handleReply, cli
       var subname = handleReply.tenphu.toUpperCase()
       var phoneNumber = handleReply.sdt.toUpperCase()
       api.unsendMessage(handleReply.messageID);
-      api.sendMessage(`Hey Itz Me ☘️𝐁 𝐀 𝐃 𝐎 𝐋^𝐁 𝐎 𝐓^0 0 7🌺 Your Cover Almost Done Please Wait⏳ Initializing the imager!`,threadID, (err, info) => {
+      api.sendMessage(`Hey Itz Me ☘️𝐓 𝐎 𝐍 𝐍 𝐈^𝐁 𝐎 𝐓🌺 Your Cover Almost Done Please Wait⏳ Initializing the imager!`,threadID, (err, info) => {
       setTimeout(() => {
               api.unsendMessage(info.messageID);
      }, 1000);
