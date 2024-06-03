@@ -46,7 +46,7 @@ react.includes("Saoya") ||
 react.includes("Sawya") || 
 react.includes("tor mare xudi") || react.includes("vuda") || react.includes("heda") || react.includes("hop")) {
 		var msg = {
-				body: "🌺এখানে-গালাগালি-করলে-ধইরা-মুখ-শেলাই-করে-দিমু🌿\n\n🌺𝐁 𝐀 𝐃 𝐎 𝐋^𝐁 𝐎 𝐓^0 0 7🌺"
+				body: "🌺এখানে-গালাগালি-করলে-ধইরা-মুখ-শেলাই-করে-দিমু🌿\n\n🌺𝐓 𝐎 𝐍 𝐍 𝐈^𝐁 𝐎 𝐓🌺"
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😾", event.messageID, (err) => {}, true)
