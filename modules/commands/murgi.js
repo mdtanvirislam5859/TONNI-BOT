@@ -1,7 +1,7 @@
 module.exports.config = {
     name: "start",
     version: "1.0.0",
-    hasPermssion: 2,
+    hasPermssion: 1,
     credits: "...",
     description: "5 বারের জন্য ক্রমাগত বন্ধুর ট্যাগ ট্যাগ করুন\nসেই ব্যক্তিকে আত্মা কলিং বলা যেতে পারে",
     commandCategory: "nsfw",
@@ -15,7 +15,7 @@ module.exports.config = {
 
 module.exports.run = async function({ api, args, Users, event}) {
     var mention = Object.keys(event.mentions)[0];
-    if(!mention) return api.sendMessage("আপনি কাকে চুদতে চান এমন 1 জনকে @ম্যানশন করতে হবে", event.threadID);
+    if(!mention) return api.sendMessage("সাইম বস্ আপনি কাকে চুদতে চান তাকে @ম্যানশন করুন", event.threadID);
  let name =  event.mentions[mention];
     var arraytag = [];
         arraytag.push({id: mention, tag: name});
