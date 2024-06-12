@@ -1,7 +1,7 @@
 const request = global.nodemodule["request"];
   const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "ভালোবাসা",
+  name: "hug",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Hungcatmoi",
