@@ -1,6 +1,6 @@
 /** I am doing this coding with a lot of difficulty, please don't post it yourself¯\_(ツ)_/¯ **/
 module.exports.config = {
-  name: "lovemim",
+  name: "love",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Badol",
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["𝐁𝐀𝐃𝐎𝐋-𝐋𝐎𝐕𝐄-𝐕𝐈𝐃𝐄𝐎"];
+   var hi = ["𝐒𝐀𝐈𝐌-𝐋𝐎𝐕𝐄-𝐕𝐈𝐃𝐄𝐎"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
   "https://drive.google.com/uc?id=1Z-6qll7ACq8Ka1pKpnC3guGcXU0gNvoL",
