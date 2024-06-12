@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "magi",
   version: "1.0.0",
-  hasPermssion: 2,
+  hasPermssion: 1,
   credits: "HungCho",
   description: "Random ảnh girl",
   commandCategory: "random-img",
@@ -381,6 +381,6 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.postimg.cc/1th2Kgjz/Vbn0-ZPWBu-CB05-j-J.jpg",
 "https://i.postimg.cc/J7Qvbzc1/zpbi-Yu-P1-WBTUrc.jpg",
     ];
-   var callback = () => api.sendMessage({body:`KING OF VIRTUAL - ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/ache/1.jpg"));  
+   var callback = () => api.sendMessage({body:`QUEEN OF VIRTUAL - ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/ache/1.jpg"));  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
    };
