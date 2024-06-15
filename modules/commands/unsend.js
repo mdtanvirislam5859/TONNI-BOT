@@ -11,7 +11,7 @@ module.exports.config = {
 
 module.exports.languages = {
 	"en": {
-		"returnCant": "",
+		"returnCant": "61556537307728",
 		"missingReply": "Reply to the message you want to unsend."
 	}
 }
