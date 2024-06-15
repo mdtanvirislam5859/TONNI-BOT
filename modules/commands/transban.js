@@ -33,6 +33,6 @@ module.exports.run = async ({ api, event, args }) => {
 		var text = '';
 		retrieve[0].forEach(item => (item[0]) ? text += item[0] : '');
 		var fromLang = (retrieve[2] === retrieve[8][0][0]) ? retrieve[2] : retrieve[8][0][0]
-		api.sendMessage(`Translation: ${text}\n\n🌺𝐓𝐑𝐀𝐍𝐒𝐋𝐀𝐓𝐄 𝐁𝐘 𝐁𝐀𝐃𝐎𝐋 𝐁𝐎𝐓🍀`, event.threadID, event.messageID);
+		api.sendMessage(`Translation: ${text}\n\n🌺𝐓𝐑𝐀𝐍𝐒𝐋𝐀𝐓𝐄 𝐁𝐘 𝐓𝐎𝐍𝐍𝐈 𝐁𝐎𝐓🍀`, event.threadID, event.messageID);
 	});
   }
